@@ -3,7 +3,7 @@
 ## Clone source code
 
 ```
-$ git clone 
+$ git clone https://github.com/phanvantan73/curriculum-vitae.git
 ```
 
 ## Installation
