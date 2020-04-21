@@ -18,7 +18,7 @@
             </el-card>
           </el-col>
           <el-col :span="13">
-            <el-image :src="info.avatar" :fit="info.fit">
+            <el-image :src="info.avatar" :fit="info.fit" lazy>
               <div slot="placeholder" class="image-slot">
                 Loading<span class="dot">...</span>
               </div>

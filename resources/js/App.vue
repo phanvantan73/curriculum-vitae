@@ -12,11 +12,6 @@
 
     export default {
         name: "App",
-        data() {
-            return {
-                a: "12345"
-            }
-        },
         components: {
             'Menu': Menu
         },
