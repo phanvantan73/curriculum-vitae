@@ -14,16 +14,16 @@ Generate .env file (if not exists) from .env.example
 cp .env.example .env
 ```
 
-Generate key
-
-```bash
-php artisan key:generate
-```
-
 Install PHP dependencies via Composer
 
 ```bash
 composer install
+```
+
+Generate key
+
+```bash
+php artisan key:generate
 ```
 
 Migrate database

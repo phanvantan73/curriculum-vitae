@@ -48,7 +48,6 @@ const actions = {
   }) {
     try {
       const workExperience = await getExperience();
-      console.log(workExperience);
       commit('SET_EXPERIENCE', workExperience);
 
       return Promise.resolve();
